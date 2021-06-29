@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOOKING AT THE BIG PICTURE</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h3>Date of data</h3>
+    <input id="date" placeholder="date of data">
+    <h3>location of data</h3>
+    <input id="location" placeholder="location of data">
+    <br>
+    <br>
+    <select name="category" id="category">
+        <option value="Chlorophyll-a concentration">Chlorophyll-a concentration</option>
+        <option value="Atmospheric NO2 concentration">Atmospheric NO2 concentration</option>
+        <option value="Atmospheric CO2 concentration">Atmospheric CO2 concentration</option>
+        <option value="Turbidity">Turbidity</option>
+        <option value="Agriculture">Agriculture</option>
+    </select>
+    <br>
+    <br>
+    <select name="Device" id="device">
+        <option value="MDC1">MDC1</option>
+        <option value="MDC2">MDC2</option>
+        <option value="MDC3">MDC3</option>
+        <option value="MDC4">MDC4</option>
+    </select>
+    <br>
+    <br>
+    <button id="next" class="btn btn-primary" onclick="next();">Next</button>
+    <br>
+    <br>
+    <iframe class="item" src="https://eodashboard.org/iframe?poi=W5-N2" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>
+    <p>Lockdowns and other social distancing measures implemented in response to the COVID-19 pandemic have led to temporary reductions in carbon dioxide (CO2) emissions from fossil fuel combustion and other human activities.
+
+Scientists largely agree that the build-up of excess CO2 and other greenhouse gases within Earth’s atmosphere has contributed to the rapid increase of global climate change. Determining whether these temporary reductions in CO2 emission are significant enough to contribute to the overall lowering of the world’s carbon footprint will require more time and rigorous scientific study.
+
+However, initial studies suggest that although COVID-19-related CO2 emission reductions are expected to slow the speed at which CO2 accumulates in the atmosphere, they will not reduce the overall atmospheric concentration of CO2.
+
+CO2 emission reductions have been accompanied by comparable, or even greater, reductions in emissions of short-lived air pollutants, such as nitrogen dioxide (NO2). While fossil fuel combustion emits far more CO2 than NO2, much smaller relative changes are expected for atmospheric CO2 because it has a much longer atmospheric lifetime and there is much more CO2 in the atmosphere than NO2. Therefore, time-dependent, regional-scale changes in CO2 concentrations are expected to be no larger than 1 part per million (ppm), out of the normal 415 ppm CO2 background – a change of only 0.25%.</p>
+</body>
+
+</html>

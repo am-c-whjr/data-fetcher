@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOOKING AT THE BIG PICTURE</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h3>Date of data</h3>
+    <input id="date" placeholder="date of data">
+    <h3>location of data</h3>
+    <input id="location" placeholder="location of data">
+    <br>
+    <br>
+    <select name="category" id="category">
+        <option value="Chlorophyll-a concentration">Chlorophyll-a concentration</option>
+        <option value="Atmospheric NO2 concentration">Atmospheric NO2 concentration</option>
+        <option value="Atmospheric CO2 concentration">Atmospheric CO2 concentration</option>
+        <option value="Turbidity">Turbidity</option>
+        <option value="Agriculture">Agriculture</option>
+    </select>
+    <br>
+    <br>
+    <select name="Device" id="device">
+        <option value="MDC1">MDC1</option>
+        <option value="MDC2">MDC2</option>
+        <option value="MDC3">MDC3</option>
+        <option value="MDC4">MDC4</option>
+    </select>
+    <br>
+    <br>
+    <button id="next" class="btn btn-primary" onclick="next();">Next</button>
+</body>
+
+</html>
